@@ -1,0 +1,37 @@
+body{
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color:aqua;
+    font-style: italic;
+}
+.design{
+    background-color: aqua;
+    border-radius: 10%;
+}
+h1{
+    color: blueviolet;
+    font-weight: bold;
+    font-style: arial;
+}
+.input{
+    border-color: aqua;
+    border-radius: 5%;
+}
+.links{
+    text-align: right;
+    
+}
+a{
+    margin-left: 200px;
+    color: aqua;
+    font-size: larger;
+}
+ .logo{
+    vertical-align: middle;  
+    height: auto;
+    width: 5em;
+
+}

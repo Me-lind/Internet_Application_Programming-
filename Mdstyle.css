@@ -1,0 +1,31 @@
+body{
+background-image: url("bgimg2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.links{
+    text-align: right;
+    
+}
+a{
+    margin-left: 50px;
+    color: aqua;
+}
+h1{
+    font-weight: bolder;
+
+}
+.logo{
+    vertical-align: middle;  
+    height: auto;
+    width: 5em;
+
+}
+.icon1{
+    height: 100px;
+    width: 100px;
+}
+.icon2{
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-image:url("contact.jpg");
+    background-repeat:no-repeat;
+    padding:10px;
+    background-size:cover;
+}
+#home{
+    float: left;
+    background-color: transparent;
+    height: 2cm;
+    width: 4cm
+}
+#about{
+    background-color: transparent;
+    height: 2cm;
+    width: 4cm;
+}
+div{
+    background-color:gray;
+    text-align:left;
+    font-size:25px;
+    height:200px;
+    width:400px;
+    float: left;
+    margin: 25px;
+}

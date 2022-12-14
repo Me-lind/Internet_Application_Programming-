@@ -1,0 +1,27 @@
+body{
+    background-image:url("th.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.div1{
+     padding: 20px;
+
+}
+#line2{
+    font-size:30px;
+}
+#logoline{
+    font-size:30px;
+}
+#buttons{
+    height: 50px;
+    width: 250px;
+    background-color:aqua;
+    font-size:20px;
+    margin-top: 50px;
+}
+.grid{
+    display: grid;
+    place-items: center;
+}

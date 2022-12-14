@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="logo.png" type="image/png">
+        <script src="myScript.js"></script>
+    </head>
+  <body>
+    <div class="links">
+    <a href="HomePage.html" target="_blank">Home</a>
+    <a href="aboutus.html" target="_blank" >About</a>
+    <a href="contactus.html" target="_blank">Contact</a><br>
+  </div>
+    
+    <p><img src="logo.png" class="logo">DeKUT Medical Consultation</p>
+    <h1>Medical Assistance Wherever You Are</h1>
+    <form name="theform" id="theform" method="post">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" class="input" required>
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" class="input" required>
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" class="input" required>
+        <br><br>
+        <label for="regno">Registration Number:</label>
+        <input type="text" id="regno" name="regno" class="input" required>
+        <br><br>
+        <label for="telno">Telephone Number:</label>
+        <input type="tel" id="telno" name="telno" class="input" required>
+        <br>
+        <br>
+        <label for="createpasswd">Create New Password:</label><br>
+        <input type="password" id="createpasswd" name="createpasswd" class="input" required>
+        <br>
+        <br>
+        <label for="confirmpasswd">Confirm Password:</label><br>
+        <input type="password" id="confirmpasswd" name="confirmpasswd" class="input" required>
+        <br>
+        <br>
+        <input type="button" value="Submit Information" onclick="validatepasswd()" class="design">
+</form>
+</body>
+</html>
+

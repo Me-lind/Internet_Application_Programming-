@@ -1,0 +1,55 @@
+
+.open-button{
+	background-color: black;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	opacity: 0.8;
+	width: 280px;
+	cursor: pointer;
+	position: center;
+}
+.chat-popup{
+	display: none;
+	position: center;
+	bottom: 0;
+	right: 15px;
+	z-index: 9;
+	border: solid 3px;
+}
+.form.container{
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+}
+textarea{
+	padding: 15px;
+	width: 100%;
+	margin: 5px 0 22px 0;
+	background-color: lightskyblue;
+	border: none;
+	resize: none;
+	min-height: 200px;
+}
+ textarea:focus{
+	background-color: linen;
+	outline: none;
+}
+.btn{
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	width: 25%;
+}
+.cancel{
+	background-color: red;
+	width: 25%;
+
+}
+.btn:hover, .open-button:hover{
+	opacity: 1;
+}
+.home{
+	color: blueviolet;
+}

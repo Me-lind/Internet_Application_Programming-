@@ -1,0 +1,46 @@
+
+#homepage{
+	background-image: url("background3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.logo{
+	vertical-align: middle;
+	height: auto;
+	width: 2.5em;
+}
+h1{
+	color:darkgrey;
+margin-left:20px;
+font-size: 50px;
+}
+.links{ 
+ margin-right:100px;
+ font-size: larger;
+ word-spacing: 4em;
+ color: deepskyblue;
+}
+
+p{
+	color: deepskyblue;
+	margin-left: 2.5px;
+	font-size: 15px;}
+
+label{
+	color: black;
+	font-size: 50px;
+}
+
+a{
+	color: darkcyan;
+}
+
+a:hover{background-color:whitesmoke;}
+
+.click{
+	text-decoration: none;
+	font-size: 50px;
+    display: block;
+    padding: 8px;
+    width: 150px;
+}

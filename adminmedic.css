@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(21, 21, 138);
+}
+div{
+    margin: 20px;
+    padding: px;
+}
+#DMweb{
+    background-color: transparent;
+    font-size: larger;
+    font-weight: bold;
+}
+#div1{
+    background-color: aquamarine;
+    width: max-content;
+    padding: 20px;
+    display: block;
+    font-size: larger;
+    font-weight: 600;
+
+}
+img{
+    float: left;;
+}
+.grid{
+    display: grid;
+    place-items: center;
+}
+

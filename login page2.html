@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        
+        <link rel="stylesheet" href="style2.css">
+         <link rel="icon" href="logo.png" type="image/png">
+         <script src="myScript.js"></script>
+
+    </head>
+    <body>
+            <a href="homepage" target="_blank">Home</a>
+            <a href="aboutus.html" target="_blank" >About</a>
+            <a href="contactus.html" target="_blank">Contact</a><br>
+           
+          <h1>DeKUT Medical Consultation</h1>
+          <p class="slogan">Medical Assistance Wherever You Are</p>
+          <form class="rest" method="post" name="the_form" id="the_form">
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="uname" required>
+            <br>
+            <br>
+            <label for="passwd">Password:</label>
+            <input type="password" id="passwd" name="passwd" required> 
+            <br>
+            <br>
+            <input type="button" value="Login" onclick="validateuser()" class="button">
+             
+        </form>
+        <p>Have no account?</p>
+        <a href="Registration.html" target="_blank">Register</a>
+    </body>
+</html>

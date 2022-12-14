@@ -1,0 +1,32 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+a{
+    margin-right: 150px;
+    color: blueviolet;
+    font-size: larger;
+}
+h1{
+    font-weight: bolder;
+    color: blueviolet;
+    font-size: xx-large;
+}
+.slogan{
+    font-style: italic;
+    color: black;
+    font-size: larger;
+}
+.button{
+    background-color: aqua;
+    border-radius: 5%;
+    font-size: large;
+}
+.rest{
+    font-size: x-large;
+}
+p{
+    font-size: large;
+}
